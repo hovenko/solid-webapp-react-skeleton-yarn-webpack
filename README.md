@@ -28,4 +28,7 @@ npm-do yarn install
 
 # Starts the webpack development web server
 npm-do yarn start
+
+# Builds a distributable, see "build/" directory
+npm-do yarn build
 ```
