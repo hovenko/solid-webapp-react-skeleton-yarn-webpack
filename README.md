@@ -1,6 +1,6 @@
 # Solid web application skeleton
 
-This base project helps to get started with Solid web application development.
+This base application project helps getting started with Solid web application development.
 
 For building, it uses:
 
