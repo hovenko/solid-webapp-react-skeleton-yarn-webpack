@@ -1,0 +1,2 @@
+# Solid web application skeleton
+
