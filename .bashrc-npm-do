@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Creates function: npm-do"
+
+function npm-do { (PATH=$(npm bin):$PATH; eval $@;) }

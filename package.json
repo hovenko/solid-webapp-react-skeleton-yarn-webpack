@@ -1,0 +1,37 @@
+{
+  "name": "solid-webapp-react-skeleton",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Knut-Olav Hoven <knutolav@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./build/*",
+    "compile": "webpack --config ./webpack.production.js --progress",
+    "autoformat": "prettier --write --single-quote --print-width=120 \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-async-to-generator": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.14.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4",
+    "yarn": "^1.10.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.2.0",
+    "rdflib": "^0.19.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "solid-auth-client": "^2.2.8"
+  }
+}
