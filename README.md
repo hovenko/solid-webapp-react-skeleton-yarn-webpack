@@ -4,8 +4,9 @@ This base project helps to get started with Solid web application development.
 
 For building, it uses:
 
-* Webpack to create a web application distribution and supplies a developer friendly web server.
-* Yarn for node package dependency management.
+* [Yarn](https://yarnpkg.com/) for application project management (building, dependencies, etc).
+* [Webpack](https://webpack.js.org/) to create a web application distribution and supplies a developer friendly web server.
+* [Babel](https://babeljs.io/) for compiling the Javascript source to web browser compatible code.
 
 Included dependencies are:
 
