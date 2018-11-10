@@ -10,9 +10,9 @@ For building, it uses:
 
 Included dependencies are:
 
-* rdflib and solid-auth-client for working with a Solid POD (and other RDF data).
-* React, a web component framework (DOM overlay).
-* Material-UI, a React extension with useful web components.
+* [rdflib](https://github.com/linkeddata/rdflib.js) and [solid-auth-client](https://github.com/solid/solid-auth-client) for working with a Solid POD (and other RDF data).
+* [React](https://reactjs.org/), a web component framework (DOM overlay).
+* [Material-UI](https://material-ui.com/), a React extension with useful web components.
 
 ## Getting started
 
